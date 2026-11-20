@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#7A3D00">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Cuenta M23 Plus — Simulador del Inversor</title>
+<title>Cuenta M23 Plus — Simulador del Tomador</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -185,30 +185,30 @@ input[type=number]{-moz-appearance:textfield;}
   <!-- HEADER -->
   <div class="page-header">
     <div>
-      <h1><em>Cuenta M23 Plus</em> &mdash; Simulador del Inversor</h1>
-      <p>Configur&aacute; las condiciones de tu inversi&oacute;n y visualiz&aacute; la ganancia neta de la operaci&oacute;n.</p>
+      <h1><em>Cuenta M23 Plus</em> &mdash; Simulador del Tomador</h1>
+      <p>Configur&aacute; las condiciones de tu financiaci&oacute;n y visualiz&aacute; el costo de la operaci&oacute;n.</p>
     </div>
     <div class="logo-svg">
       <img src="data:image/jpeg;base64,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" alt="M23" style="height:52px;width:auto;object-fit:contain;">
     </div>
   </div>
 
-  <!-- PANEL INVERSOR -->
-  <div class="panel grn">
+  <!-- PANEL TOMADOR -->
+  <div class="panel org">
     <div class="p-badge">
-      <div class="p-icon grn">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/>
+      <div class="p-icon org">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F28C1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
         </svg>
       </div>
       <div>
-        <h2 class="grn">Inversor</h2>
-        <p>Defin&iacute; las condiciones de tu inversi&oacute;n</p>
+        <h2 class="org">Tomador de Fondos</h2>
+        <p>Defin&iacute; las condiciones de tu financiaci&oacute;n</p>
       </div>
     </div>
     <div class="inp-3">
       <div>
-        <span class="f-lbl grn">Monto a Invertir</span>
+        <span class="f-lbl">Monto del Cr&eacute;dito</span>
         <div class="f-inp-wrap">
           <span class="f-inp-pre">$</span>
           <input type="number" class="f-inp pre" id="inp-monto" value="150000000"
@@ -221,7 +221,7 @@ input[type=number]{-moz-appearance:textfield;}
         <div class="f-range"><span>10M</span><span>500M</span></div>
       </div>
       <div>
-        <span class="f-lbl grn">Plazo (en d&iacute;as)</span>
+        <span class="f-lbl">Plazo (en d&iacute;as)</span>
         <input type="number" class="f-inp" id="inp-plazo" value="180"
           min="30" max="360" step="30" oninput="onPlazoInput();calcular()">
         <input type="range" class="f-slider" id="sl-plazo"
@@ -230,7 +230,7 @@ input[type=number]{-moz-appearance:textfield;}
         <div class="f-range"><span>30</span><span>360</span></div>
       </div>
       <div>
-        <span class="f-lbl grn">TNA</span>
+        <span class="f-lbl">TNA</span>
         <div class="f-inp-wrap">
           <input type="number" class="f-inp suf" id="inp-tna" value="50"
             min="10" max="100" step="0.5" oninput="onTnaInput();calcular()">
@@ -245,17 +245,17 @@ input[type=number]{-moz-appearance:textfield;}
   </div>
 
   <!-- RESULTADOS -->
-  <div class="results-title">Resultados de la Inversi&oacute;n</div>
+  <div class="results-title">Resultados de la Operaci&oacute;n</div>
   <div class="r-cards">
-    <div class="r-card grn">
-      <div class="r-icon grn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2e8b57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>
+    <div class="r-card">
+      <div class="r-icon red">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/>
         </svg>
       </div>
-      <div class="r-lbl">Intereses Exentos</div>
-      <div class="r-val grn" id="rc-int">&#8212;</div>
-      <div class="r-desc">Est&iacute;mulos pagados por M23, cobrados mes a mes</div>
+      <div class="r-lbl">Intereses Pagados</div>
+      <div class="r-val red" id="rc-int">&#8212;</div>
+      <div class="r-desc">Total de intereses del per&iacute;odo, pagados mes a mes</div>
     </div>
     <div class="r-card">
       <div class="r-icon red">
@@ -263,23 +263,23 @@ input[type=number]{-moz-appearance:textfield;}
           <rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>
         </svg>
       </div>
-      <div class="r-lbl">Comisi&oacute;n por Colocaci&oacute;n</div>
+      <div class="r-lbl">Comisi&oacute;n por Recaudaci&oacute;n</div>
       <div class="r-val red" id="rc-com">&#8212;</div>
-      <div class="r-desc">Costo por la colocaci&oacute;n de los fondos</div>
+      <div class="r-desc">Total de la comisi&oacute;n M23 por recaudaci&oacute;n</div>
     </div>
-    <div class="r-card grn">
-      <div class="r-icon grn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2e8b57" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <div class="r-card">
+      <div class="r-icon org">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F28C1B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
         </svg>
       </div>
-      <div class="r-lbl">Recupero de Capital</div>
-      <div class="r-val grn" id="rc-capital">&#8212;</div>
-      <div class="r-desc" id="rc-capital-desc">Se recupera al vencimiento</div>
+      <div class="r-lbl">Devoluci&oacute;n de Capital</div>
+      <div class="r-val org" id="rc-capital">&#8212;</div>
+      <div class="r-desc" id="rc-capital-desc">Se cancela al vencimiento</div>
     </div>
   </div>
 
-  <!-- BANNER GANANCIA NETA -->
+  <!-- BANNER COSTO FINANCIERO -->
   <div class="neto-banner">
     <div class="neto-left">
       <div class="neto-icon">
@@ -288,11 +288,11 @@ input[type=number]{-moz-appearance:textfield;}
         </svg>
       </div>
       <div>
-        <div class="neto-lbl">Ganancia Neta</div>
-        <div class="neto-sub">Intereses Exentos &minus; Comisi&oacute;n por Colocaci&oacute;n</div>
+        <div class="neto-lbl">Costo Financiero Total</div>
+        <div class="neto-sub">Intereses Pagados + Comisi&oacute;n por Recaudaci&oacute;n</div>
       </div>
     </div>
-    <div class="neto-val" id="rc-neto">&#8212;</div>
+    <div class="neto-val" id="rc-costo">&#8212;</div>
     <div class="neto-icon">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F28C1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
@@ -301,44 +301,44 @@ input[type=number]{-moz-appearance:textfield;}
   </div>
 
   <!-- EXPLICACION -->
-  <div class="explicacion grn">
+  <div class="explicacion org">
     <div class="exp-icon">
-      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2e8b57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F28C1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
       </svg>
     </div>
     <div>
       <div class="exp-title">Tratamiento impositivo</div>
       <div class="exp-body">
-        Los intereses que recib&iacute;s son <strong>est&iacute;mulos pagados por M23</strong> y
-        est&aacute;n <strong>exentos del Impuesto a las Ganancias</strong>.
+        Todos los <strong>intereses y costos financieros</strong> del cr&eacute;dito tomado
+        <strong>reducen el monto imponible</strong> del Impuesto a las Ganancias.
       </div>
     </div>
   </div>
 
   <!-- DETALLE -->
   <hr class="sep">
-  <div class="section-t">Detalle de la Inversi&oacute;n</div>
+  <div class="section-t">Detalle de la Operaci&oacute;n</div>
   <div class="kpi-grid">
-    <div class="kpi grn"><div class="kpi-lbl">Inter&eacute;s Mensual</div><div class="kpi-val" id="k-int-mes">&#8212;</div><div class="kpi-sub">Monto &times; TNA / 12</div></div>
-    <div class="kpi red"><div class="kpi-lbl">Comisi&oacute;n Mensual</div><div class="kpi-val" id="k-com-mes">&#8212;</div><div class="kpi-sub">Comisi&oacute;n por colocaci&oacute;n</div></div>
-    <div class="kpi grn"><div class="kpi-lbl">Cobro Mensual Neto</div><div class="kpi-val" id="k-cobro-mes">&#8212;</div><div class="kpi-sub">Inter&eacute;s &minus; comisi&oacute;n</div></div>
-    <div class="kpi grn"><div class="kpi-lbl">Cobro al Vencimiento</div><div class="kpi-val" id="k-cobro-venc">&#8212;</div><div class="kpi-sub">&Uacute;ltimo cobro neto + capital</div></div>
+    <div class="kpi org"><div class="kpi-lbl">Inter&eacute;s Mensual</div><div class="kpi-val" id="k-int-mes">&#8212;</div><div class="kpi-sub">Monto &times; TNA / 12</div></div>
+    <div class="kpi pch"><div class="kpi-lbl">Comisi&oacute;n Mensual</div><div class="kpi-val" id="k-com-mes">&#8212;</div><div class="kpi-sub">Comisi&oacute;n por recaudaci&oacute;n</div></div>
+    <div class="kpi org"><div class="kpi-lbl">Pago Mensual Total</div><div class="kpi-val" id="k-pago-mes">&#8212;</div><div class="kpi-sub">Inter&eacute;s + comisi&oacute;n</div></div>
+    <div class="kpi red"><div class="kpi-lbl">Pago al Vencimiento</div><div class="kpi-val" id="k-pago-venc">&#8212;</div><div class="kpi-sub">&Uacute;ltima cuota + capital</div></div>
   </div>
 
   <!-- TABLA -->
   <div class="table-card">
     <div class="table-hdr">
-      <h3>Cronograma de Cobros</h3>
+      <h3>Cronograma de Pagos</h3>
     </div>
     <div class="tw">
-      <table class="grn">
+      <table class="org">
         <thead>
           <tr>
-            <th>Mes</th><th>Inter&eacute;s Exento ($)</th><th>Comisi&oacute;n Colocaci&oacute;n ($)</th><th>Capital ($)</th><th>Total a Cobrar ($)</th><th>Saldo Invertido ($)</th>
+            <th>Cuota</th><th>Inter&eacute;s ($)</th><th>Comisi&oacute;n Recaudaci&oacute;n ($)</th><th>Capital ($)</th><th>Total a Pagar ($)</th><th>Saldo Capital ($)</th>
           </tr>
         </thead>
-        <tbody id="tbody-cobros"></tbody>
+        <tbody id="tbody-pagos"></tbody>
         <tfoot>
           <tr>
             <td>TOTALES</td>
@@ -411,35 +411,35 @@ function calcular(){
   var p=leerInputs();
   if(p.capital<=0)return;
   var o=calcOperacion(p.capital,p.plazo,p.tna);
-  var neto=o.intTotal-o.comInvTotal;
+  var costo=o.intTotal+o.comTomTotal;
 
-  setEl("rc-int","+"+ars(o.intTotal));
-  setEl("rc-com","&#8722;"+ars(o.comInvTotal));
+  setEl("rc-int","&#8722;"+ars(o.intTotal));
+  setEl("rc-com","&#8722;"+ars(o.comTomTotal));
   setEl("rc-capital",ars(p.capital));
-  setEl("rc-capital-desc","Se recupera al vencimiento (d&iacute;a "+p.plazo+")");
-  setEl("rc-neto",(neto>=0?"+":"")+ars(neto));
+  setEl("rc-capital-desc","Se cancela al vencimiento (d&iacute;a "+p.plazo+")");
+  setEl("rc-costo",ars(costo));
   setEl("k-int-mes",ars(o.intMes));
-  setEl("k-com-mes",ars(o.comInvMes));
-  setEl("k-cobro-mes",ars(o.intMes-o.comInvMes));
-  setEl("k-cobro-venc",ars(o.intMes-o.comInvMes+p.capital,true));
+  setEl("k-com-mes",ars(o.comTomMes));
+  setEl("k-pago-mes",ars(o.intMes+o.comTomMes));
+  setEl("k-pago-venc",ars(o.intMes+o.comTomMes+p.capital,true));
   setEl("ft-int",ars(o.intTotal,true));
-  setEl("ft-com","&#8722;"+ars(o.comInvTotal,true));
+  setEl("ft-com",ars(o.comTomTotal,true));
   setEl("ft-cap",ars(p.capital,true));
-  setEl("ft-total",ars(neto+p.capital,true));
+  setEl("ft-total",ars(costo+p.capital,true));
 
   var rows="";
   for(var k=1;k<=o.n;k++){
     var cap=(k===o.n)?p.capital:0;
     var saldo=(k===o.n)?0:p.capital;
     rows+="<tr><td>"+k+"</td>"
-      +"<td class='tb'>"+ars(o.intMes,true)+"</td>"
-      +"<td class='tr-red'>&#8722;"+ars(o.comInvMes,true)+"</td>"
+      +"<td class='tc'>"+ars(o.intMes,true)+"</td>"
+      +"<td class='tc'>"+ars(o.comTomMes,true)+"</td>"
       +"<td class='tc'>"+ars(cap,true)+"</td>"
-      +"<td class='tb'>"+ars(o.intMes-o.comInvMes+cap,true)+"</td>"
+      +"<td class='tb'>"+ars(o.intMes+o.comTomMes+cap,true)+"</td>"
       +"<td class='tc'>"+ars(saldo,true)+"</td>"
       +"</tr>";
   }
-  setEl("tbody-cobros",rows);
+  setEl("tbody-pagos",rows);
 }
 
 onMontoChange();calcular();
